@@ -1,6 +1,6 @@
 <?php
-    $var1 ="localhost:3306";/*servidor local*/
-    $var2 ="";/*usuario*/
-    $var3 ="";/*senha do banco*/
-    $var4 ="";/*banco de dados*/
+	$var1 = "localhost:3306";
+	$var2 = "gabriel";
+	$var3 = "Cripto10@00Cripto10@00Cripto10@00";
+	$var4 = "atividade16032023db";
     $conn = mysqli_connect($var1,$var2,$var3,$var4); /*conex*/
