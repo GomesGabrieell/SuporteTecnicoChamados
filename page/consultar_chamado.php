@@ -58,8 +58,8 @@
                         echo"<p class='card-text'> #".$id2."</p>";
 
                         echo"<div style='float:right;'>";
-                          echo" "."<a href='./../script/php/pdf.php?var1=true&id2=$id2' target='_blank'>";include'./../script/php/eye.php';echo"</a>   ";
-                          echo"<a href='./../script/php/pdf.php?var1=false' target='_blank'>";include'./../script/php/dowl.php';echo"</a>";
+                          echo" "."<a href='visualizar_chamado.php?var1=true&id2=$id2'>";include'./../script/php/eye.php';echo"</a>   ";
+                          // echo"<a href='./../script/php/pdf.php?var1=false' target='_blank'>";include'./../script/php/dowl.php';echo"</a>";
                         echo"</div>";
                         echo"<div>";
                           echo$row2['nome']. " - ".$row['datahora'];
